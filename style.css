@@ -46,11 +46,30 @@ button {
     align-items: center;
     gap: 30px;
     margin-top: 50px;
-    margin-bottom: 500px;
+    margin-bottom: 30px;
 }
 
 .first a {
     padding: 7px 10px 0 10px;
+}
+
+.jump-to {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 400px;
+}
+
+.jump-to a {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    padding: 8px;
+}
+
+.jump-to a:hover {
+    border-color: red;
 }
 
 .episodes {
@@ -59,6 +78,7 @@ button {
     justify-content: center;
     gap: 30px;
     margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .episodes ul {
@@ -127,3 +147,16 @@ button {
     margin-top: auto;
 }
 
+.contact {
+    margin: 50px;
+}
+ .contact img:hover {
+    border-style: dashed;
+    border-color: rgb(0, 0, 0)
+ }
+
+ .contact img {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 8px;
+}
