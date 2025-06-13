@@ -10,8 +10,6 @@ button {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
-    
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,14 +18,13 @@ button {
     font-size: 16px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: black;
     margin-left: 20px;
 }
 
-
-a:hover {
+.header a:hover {
     color: red;
 }
 
@@ -50,7 +47,10 @@ a:hover {
     gap: 30px;
     margin-top: 50px;
     margin-bottom: 500px;
+}
 
+.first a {
+    padding: 7px 10px 0 10px;
 }
 
 .episodes {
@@ -69,6 +69,23 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
+
+.ep img {
+    margin: 10px;
+}
+
+.ep a,
+.first a {
+    border-style: solid;
+    border-color: white;
+}
+
+.ep a:hover, 
+.first a:hover {
+    border-style: solid;
+    border-color: red;
+}
+
 .theme {
     color: red;
     font-style: italic;
