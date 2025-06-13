@@ -1,0 +1,81 @@
+body {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    text-align: center;
+}
+
+button {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+    
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.header a:active {
+    color: white;
+    background-color: red;
+}
+
+.content {
+    margin-top: 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+
+}
+
+.episodes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px
+}
+
+.episodes ul {
+    list-style: none;
+}
+
+.ep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.theme {
+    color: red;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    align-self: center;
+    margin-top: auto;
+}
